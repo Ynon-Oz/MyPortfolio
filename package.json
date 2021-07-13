@@ -1,8 +1,6 @@
 {
-
-"homepage": "http://Ynon-Oz.github.io/MyPortfolio",
-
-  "name": "messi",
+  "homepage": "http://ynon-oz.github.io/MyPortfolio",
+  "name": "ynon",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -44,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
