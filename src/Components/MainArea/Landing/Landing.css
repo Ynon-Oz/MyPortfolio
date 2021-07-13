@@ -1,0 +1,31 @@
+.Landing {
+	height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.Landing > h1 > .Land1 {
+    font-size: 1.2em;
+    animation: land-load 3s ease-in ;
+    text-shadow: 2px 2px 5px gray;
+
+}
+
+@keyframes land-load {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        font-size:1.3em;
+    }
+    75%{
+        color: gray;
+        opacity: 1;
+    }
+    100%{
+    }
+}

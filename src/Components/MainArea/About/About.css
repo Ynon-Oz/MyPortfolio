@@ -1,0 +1,21 @@
+.About {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.About > .Expertise {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+}
+.About > .Expertise> div {
+    height: 100%;
+}

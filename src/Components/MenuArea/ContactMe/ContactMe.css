@@ -1,0 +1,9 @@
+.ContactMe > a > img:hover{
+    background-color: #00000030;
+}
+
+.ContactMe > a > img {
+    height: 30px;
+    padding: 2px;
+    border-radius: 50%;
+}

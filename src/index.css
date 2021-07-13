@@ -1,0 +1,77 @@
+*{
+  scroll-behavior: smooth;
+
+}
+
+html,body, #root{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+
+
+  font-family: "Baloo 2", cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(/src/Assets/Images/bg.jpg);
+  background-position: fixed;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+
+}
+
+
+.Box1 {
+  display: inline-block;
+  border: 1px solid black;
+  background-color: #e5e7e9;
+  color: black;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px 10px;
+  box-shadow: 2px;
+}
+.Box1 > h4 {
+  text-align: center;
+  color: #9b59b6;
+}
+.Box1:hover,
+.Box2:hover,
+.Box3:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Box2 {
+  display: block;
+  border: 1px solid black;
+  background-color: #e5e7e9;
+  color: black;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px 10px;
+  box-shadow: 2px;
+}
+.Box2 > h4 {
+  text-align: center;
+  color: #1abc9c;
+}
+
+
+.Box3 {
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  border: 1px solid black;
+  background-color: #e5e7e9;
+  color: black;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px 10px;
+  box-shadow: 2px;
+}
+
+.Box3 > h3 {
+  text-align: center;
+  color: #f5b041;
+}

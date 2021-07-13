@@ -1,0 +1,8 @@
+.MyPortrait > .MyPortraitImg{
+	width: 90%;
+    border-radius:50%;
+    margin-top: 20px;
+    border: solid 1px black;
+
+
+}

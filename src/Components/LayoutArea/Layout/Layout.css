@@ -1,0 +1,19 @@
+.Layout{
+    height: 100%;
+    box-sizing: border-box; 
+    display: grid;
+    grid-template-rows:  100% ;
+    grid-template-columns: repeat(6,1fr);
+}
+
+
+.Layout > main {
+    grid-column: span 5;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items:center;
+}

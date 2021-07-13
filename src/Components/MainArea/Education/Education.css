@@ -1,0 +1,16 @@
+.Education >Education-container >div{
+	max-width: 70%;
+}
+
+.Education {
+    text-align: center;
+    min-height: 100vh;
+
+
+}
+
+
+.UnOrder {
+    width: 500px;
+    text-align: left;
+}

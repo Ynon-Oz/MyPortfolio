@@ -1,0 +1,11 @@
+.Logo {
+	height: 10%;
+    border: 1px solid transparent;
+    position: fixed;
+    left: 10px;
+}
+
+.Logo > img{
+    height: 90%;
+    margin:5px;
+}
