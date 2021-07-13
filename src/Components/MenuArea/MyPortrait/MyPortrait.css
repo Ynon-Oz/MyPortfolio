@@ -1,8 +1,20 @@
 .MyPortrait > .MyPortraitImg{
-	width: 90%;
+	width: 70%;
     border-radius:50%;
     margin-top: 20px;
     border: solid 1px black;
 
 
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .MyPortrait{
+
+    }
+    
+    .MyPortrait > .MyPortraitImg{
+        width: 20%;
+    }
 }

@@ -17,3 +17,16 @@
     align-content: stretch;
     align-items:center;
 }
+
+@media screen and (max-width: 768px) {
+    .Layout{
+        display: grid;
+        grid-template-rows:  20%  80%;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .Layout > main {
+        /* grid-column: auto; */
+
+    }
+}
