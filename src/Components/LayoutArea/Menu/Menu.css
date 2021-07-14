@@ -16,49 +16,27 @@
 }
 @media screen and (max-width: 768px) {
   .Menu {
-    background-color: aliceblue;
+    height:100%;
+    background-color: #33425750;
     display: grid;
     grid-template-rows: 100%;
     grid-template-columns: repeat(3, 1fr);
   }
-
-  .Menu > .top-header > .MyName {
-    /* color: red; */
-    font-size: 2em;
-    margin: 0;
-    margin-left: 20px;
-    text-align: left;
-  }
-  .Menu > .bottom-header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: space-between;
-    align-items: center;
-  }
-  .Menu > .bottom-header > .menu-links {
-    display: none;
-  }
   .Menu > .top-header {
     grid-column: span 2;
-    /* display: flex; */
   }
-  /* .Menu > .bottom-header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+  .Menu > .top-header > .MyName {
+    font-size: 2em;
+    margin: 0;
+    text-align-last: center;
   }
-  */
-  .Menu > .bottom-header > .contact-me {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: space-around;
-    align-items: stretch;
+  .Menu > .bottom-header {
+    /* background-color: darkblue; */
   }
+  .Menu > .bottom-header > .menu-links {
+    
+    display: none;
+  }
+ 
+
 }
