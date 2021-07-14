@@ -19,3 +19,16 @@
 .About > .Expertise> div {
     height: 100%;
 }
+
+
+@media screen and (max-width: 768px) {
+    .About>p{
+
+        padding: auto;
+    }
+    
+    .About > .Expertise {
+    flex-direction: column;
+}
+
+}

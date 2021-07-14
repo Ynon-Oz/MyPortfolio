@@ -20,13 +20,10 @@
 
 @media screen and (max-width: 768px) {
     .Layout{
-        display: grid;
+        /* display: grid; */
         grid-template-rows:  10%  90%;
         grid-template-columns: repeat(1,1fr);
     }
 
-    .Layout > main {
-        /* grid-column: auto; */
-
-    }
+    
 }

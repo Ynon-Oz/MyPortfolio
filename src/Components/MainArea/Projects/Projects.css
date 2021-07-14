@@ -18,3 +18,14 @@
 .Projects-container iframe {
     width:200px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .Projects-container {
+    
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+}
+
+}
