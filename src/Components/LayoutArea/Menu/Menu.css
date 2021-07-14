@@ -15,6 +15,9 @@
   display: block;
 }
 @media screen and (max-width: 768px) {
+  .Menu {
+    background-color: aliceblue;
+  }
   .Menu > .top-header {
     display: flex;
   }
