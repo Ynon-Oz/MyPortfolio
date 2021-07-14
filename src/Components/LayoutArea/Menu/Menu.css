@@ -1,9 +1,33 @@
 .Menu {
-    text-align: center;
-
+  text-align: center;
 }
 
-.Menu > a{
-    font-size: xx-large;
+.Menu > a {
+  font-size: xx-large;
 }
+.Menu > .top-header {
+  display: inline-block;
+}
+.Menu > .top-header > .my-portrait {
+    display:block;
+}
+.Menu > .bottom-header {
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  .Menu > .top-header {
+    display: flex;
+  }
+  .Menu > .bottom-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  .Menu > .bottom-header> .menu-links {
+    align-self: stretch;
 
+  }
+}

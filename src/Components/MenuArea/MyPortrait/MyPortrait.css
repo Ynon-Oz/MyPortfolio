@@ -4,17 +4,16 @@
     margin-top: 20px;
     border: solid 1px black;
 
-
+    
 }
 
 
 @media screen and (max-width: 768px) {
-
-    .MyPortrait{
+    
+    .MyPortrait>*{
+        display: none;
 
     }
     
-    .MyPortrait > .MyPortraitImg{
-        width: 20%;
-    }
+   
 }

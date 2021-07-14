@@ -7,18 +7,22 @@ import "./Menu.css";
 function Menu(): JSX.Element {
     return (
         <div className="Menu">
-            <section className="my-portrait">
-            <MyPortrait/>
+            <section className="top-header">
+                <div className="my-portrait">
+                    <MyPortrait />
+                </div>
+
+                <h1 className="MyName">Ynon Oz</h1>
             </section>
+            
+            <section className="bottom-header">
+                <div className="menu-links">
+                    <MenuLinks />
+                </div>
 
-            <h1 className="MyName">Ynon Oz</h1>
-            <section className="menu-links">
-            <MenuLinks/>
-            </section>
-
-            <section className="contact-me">
-			<ContactMe/>
-
+                <div className="contact-me">
+                    <ContactMe />
+                </div>
             </section>
         </div>
     );

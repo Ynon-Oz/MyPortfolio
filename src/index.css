@@ -18,14 +18,14 @@ html,body, #root{
   background-position: fixed;
   background-size: 100% auto;
   background-repeat: no-repeat;
-
+  
 }
 
 
+
 .Box1 {
-  display: inline-block;
   border: 1px solid black;
-  background-color: #e5e7e9;
+  background-color: #e5e7e999;
   color: black;
   padding: 5px;
   margin: 5px;
@@ -45,7 +45,8 @@ html,body, #root{
 .Box2 {
   display: block;
   border: 1px solid black;
-  background-color: #e5e7e9;
+  background-color: #e5e7e999;
+  
   color: black;
   padding: 5px;
   margin: 5px;
@@ -63,7 +64,7 @@ html,body, #root{
   height: 100%;
   display: inline-block;
   border: 1px solid black;
-  background-color: #e5e7e9;
+  background-color: #e5e7e999;
   color: black;
   padding: 5px;
   margin: 5px;
@@ -74,4 +75,11 @@ html,body, #root{
 .Box3 > h3 {
   text-align: center;
   color: #f5b041;
+}
+
+@media screen and (max-width: 768px) {
+  html,body, #root{
+
+  background-size :  auto 100%;
+  }
 }
